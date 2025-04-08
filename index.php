@@ -35,25 +35,17 @@
         <br>
         Formula:
         <br>
-        °C = (°F - 32) x 5/9
+        °C = (°F - 32) x 5/9;
       </div>
       <div class="page-content-php">
         <form action="answer.php" method="GET">
           <br />
-          <div></div>
-          <form action="#">
-            Fahrenheit:
-            <div class="mdl-textfield mdl-js-textfield">
-              <input
-                class="mdl-textfield__input"
-                type="number"
-                pattern="-?[0-9]*(\.[0-9]+)?"
-                id="fahrenheit"
-                step="0.01" />
-              <label class="mdl-textfield__label" for="fahrenheit">Fahrenheit Here ...</label>
-              <span class="mdl-textfield__error">Input is not a number!</span>
-            </div>
-          </form>
+          Fahrenheit:
+          <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="fahrenheit" step="0.01">
+            <label class="mdl-textfield__label" for="fahrenheit">Fahrenheit Here ...</label>
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
           <br />
           <!-- Accent-colored raised button with ripple -->
           <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
