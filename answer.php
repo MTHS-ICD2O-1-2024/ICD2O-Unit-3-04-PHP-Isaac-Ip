@@ -28,7 +28,7 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/pyramid.png" alt="pyramid image" width="250" />
+        <img src="./images/temperature.png" alt="temperature image" width="250" />
       </div>
       <div class="page-content-php">
         <div id="user-info">
@@ -39,7 +39,7 @@
           $celsius = ($fahrenheit - 32) * 5 / 9;
 
           // output
-          echo "If the fahrenheit is " . $fahrenheit . "°F, then the celsius is " . $celsius.toFixed(2) . "°C.";
+          echo "If the fahrenheit is " . $fahrenheit . "°F, then the celsius is " . (round($celsius, 2)) . "°C.";
           ?>
         </div>
       </div>

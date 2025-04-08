@@ -27,7 +27,7 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/pyramid.png" alt="pyramid image" width="250" />
+        <img src="./images/temperature.png" alt="temperature image" width="250" />
       </div>
       <br />
       <div class="page-content">Please enter value for Fahrenheit:
